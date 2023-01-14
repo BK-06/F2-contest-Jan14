@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3 class="new-emp">New Employees</h3>
+    <div class="container">
+      <div class="emp-input">
+        <label class="emp-label-1 labels">Enter Name</label>
+        <br />
+        <input type="text" class="emp-text-1 texts" />
+      </div>
+      <div class="emp-input">
+        <label class="emp-label-2 labels">Enter Profession</label>
+        <br />
+        <input type="text" class="emp-text-2 texts" />
+      </div>
+      <div class="emp-input">
+        <label class="emp-label-3 labels">Enter Age</label>
+        <br />
+        <input type="text" class="emp-text-3 texts" />
+      </div>
+    </div>
+    <br />
+    <button class="add-user-btn">
+      <span class="add-user-text">Add User</span>
+    </button>
+    <div class="error-div">
+      <p class="error hidden">
+        Error : Please Make sure All the fields are filled before adding in an
+        employee !
+      </p>
+    </div>
+    <div class="success-div">
+      <p class="success hidden">Success : Employee Added !</p>
+    </div>
+
+    <h3 class="added-emps">Added Employees</h3>
+    <p class="emp-count">You have 0 Employees</p>
+    <div id="emp-container"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
